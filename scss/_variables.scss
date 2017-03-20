@@ -31,7 +31,13 @@
 // Start with assigning color names to specific hex values.
 // $white:  #fff !default;
 // $black:  #000 !default;
-// $red:    #d9534f !default;
+$azuro-blue: #004991;
+$azuro-teal: #009ca2;
+// 87% black + 13% $azuro-blue = $azuro-black
+$azuro-black: #000912;
+$azuro-red: #C62828
+
+$red: $azuro-red;
 // $orange: #f0ad4e !default;
 // $yellow: #ffd500 !default;
 // $green:  #5cb85c !default;
@@ -39,31 +45,42 @@
 // $teal:   #5bc0de !default;
 // $pink:   #ff5b77 !default;
 // $purple: #613d7c !default;
-$azuro-blue: #004991;
-$azuro-teal: #009ca2;
 
-// Create grayscale
-// $gray-dark:                 #292b2c !default;
-// $gray:                      #464a4c !default;
-// $gray-light:                #636c72 !default;
-// $gray-lighter:              #eceeef !default;
-// $gray-lightest:             #f7f7f9 !default;
+
+// Updated grayscale
+$gray-dark:                 #757575;
+$gray:                      #9e9e9e;
+$gray-light:                #e0e0e0;
+$gray-lighter:              #eee;
+$gray-lightest:             #fafafa;
+// Azuro Blue scale
+$azuro-blue-100: #006cd7;
+$azuro-blue-300: #0059b1;
+$azuro-blue-500: $azuro-blue;
+$azuro-blue-700: #003b76;
+$azuro-blue-900: #002a54;
+// Azuro Teal scale
+$azuro-teal-100: #05d5dd;
+$azuro-teal-300: #06b5bd;
+$azuro-teal-500: $azuro-teal;
+$azuro-teal-700: #008c90;
+$azuro-teal-900: #00676b;
 
 // Reassign color vars to semantic color scheme
-// $brand-primary:             $blue !default;
+$brand-primary:   $azuro-blue;
 // $brand-success:             $green !default;
-// $brand-info:                $teal !default;
+$brand-info:      $azuro-teal;
 // $brand-warning:             $orange !default;
 // $brand-danger:              $red !default;
 // $brand-inverse:             $gray-dark !default;
-
+$brand-secondary: $azuro-teal;
 
 // Options
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
 // $enable-rounded:            true !default;
-// $enable-shadows:            false !default;
+$enable-shadows:            true;
 // $enable-gradients:          false !default;
 // $enable-transitions:        true !default;
 // $enable-hover-media-query:  false !default;
@@ -121,7 +138,7 @@ $azuro-teal: #009ca2;
 // Settings for the `<body>` element.
 
 // $body-bg:       $white !default;
-// $body-color:    $gray-dark !default;
+$body-color:    $azuro-black;
 // $inverse-bg:    $gray-dark !default;
 // $inverse-color: $gray-lighter !default;
 
@@ -186,34 +203,37 @@ $azuro-teal: #009ca2;
 // $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 // $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-// $font-family-base:       $font-family-sans-serif !default;
+$font-family-base:       "Open Sans", $font-family-sans-serif;
 //
 // $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-// $font-size-lg:   1.25rem !default;
-// $font-size-sm:   .875rem !default;
-// $font-size-xs:   .75rem !default;
+// $font-size-lg:   1.25rem !default; //20
+// $font-size-sm:   .875rem !default; //14
+// $font-size-xs:   .75rem !default; //12
 //
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
+$font-weight-light: 300;
+$font-weight-extrabold: 900;
 //
 // $font-weight-base: $font-weight-normal !default;
+//
 // $line-height-base: 1.5 !default;
 //
-// $font-size-h1: 2.5rem !default;
-// $font-size-h2: 2rem !default;
-// $font-size-h3: 1.75rem !default;
-// $font-size-h4: 1.5rem !default;
-// $font-size-h5: 1.25rem !default;
-// $font-size-h6: 1rem !default;
+$font-size-h1: 1.75rem;
+$font-size-h2: 1.5rem;
+$font-size-h3: 1.25rem;
+$font-size-h4: 1rem;
+$font-size-h5: 0.75rem;
+$font-size-h6: 0.5rem;
 //
 // $headings-margin-bottom: ($spacer / 2) !default;
 // $headings-font-family:   inherit !default;
-// $headings-font-weight:   500 !default;
+$headings-font-weight:   700;
 // $headings-line-height:   1.1 !default;
-// $headings-color:         inherit !default;
+$headings-color:         $azuro-black;
 //
-// $display1-size: 6rem !default;
-// $display2-size: 5.5rem !default;
+$display1-size: 3rem;
+$display2-size: 2rem;
 // $display3-size: 4.5rem !default;
 // $display4-size: 3.5rem !default;
 //
@@ -228,7 +248,7 @@ $azuro-teal: #009ca2;
 //
 // $small-font-size: 80% !default;
 //
-// $text-muted: $gray-light !default;
+$text-muted: $gray-dark;
 //
 // $abbr-border-color: $gray-light !default;
 //
@@ -286,9 +306,9 @@ $azuro-teal: #009ca2;
 // $btn-primary-bg:                 $brand-primary !default;
 // $btn-primary-border:             $btn-primary-bg !default;
 //
-// $btn-secondary-color:            $gray-dark !default;
-// $btn-secondary-bg:               $white !default;
-// $btn-secondary-border:           #ccc !default;
+$btn-secondary-color:            $white !default;
+$btn-secondary-bg:               $azuro-teal !default;
+$btn-secondary-border:           $azuro-teal !default;
 //
 // $btn-info-color:                 $white !default;
 // $btn-info-bg:                    $brand-info !default;
@@ -329,7 +349,7 @@ $azuro-teal: #009ca2;
 
 // $input-padding-x:                .75rem !default;
 // $input-padding-y:                .5rem !default;
-// $input-line-height:              1.25 !default;
+$input-line-height:              1;
 //
 // $input-bg:                       $white !default;
 // $input-bg-disabled:              $gray-lighter !default;
@@ -356,7 +376,7 @@ $azuro-teal: #009ca2;
 // $input-padding-x-lg:             1.5rem !default;
 // $input-padding-y-lg:             .75rem !default;
 //
-// $input-height:                   (($font-size-base * $input-line-height) + ($input-padding-y * 2)) !default;
+$input-height:                   (($font-size-xs * $input-line-height) + ($input-padding-y * 2)) !default;
 // $input-height-lg:                (($font-size-lg * $line-height-lg) + ($input-padding-y-lg * 2)) !default;
 // $input-height-sm:                (($font-size-sm * $line-height-sm) + ($input-padding-y-sm * 2)) !default;
 //
