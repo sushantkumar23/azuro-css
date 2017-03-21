@@ -617,7 +617,6 @@ $card-border-color:        $gray-light !default;
 
 // To be moved to a different file and overridden
 .form-control {
-  height: $input-height;
   padding: $input-padding-y $input-padding-x;
   font-size: $font-size-sm;
 }
