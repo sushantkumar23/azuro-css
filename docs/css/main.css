@@ -1,3 +1,11 @@
+.form-control {
+  height: 1.75rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem; }
+
+.form-control-feedback {
+  font-size: 0.875rem; }
+
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -427,7 +435,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.375;
   color: #000912; }
 
 h1, .h1 {
@@ -455,22 +463,22 @@ h6, .h6 {
 .display-1 {
   font-size: 3rem;
   font-weight: 300;
-  line-height: 1.1; }
+  line-height: 1.375; }
 
 .display-2 {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 1.1; }
+  line-height: 1.375; }
 
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
-  line-height: 1.1; }
+  line-height: 1.375; }
 
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
-  line-height: 1.1; }
+  line-height: 1.375; }
 
 hr {
   margin-top: 1rem;
