@@ -205,9 +205,9 @@ $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI
 // $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       "Open Sans", $font-family-sans-serif;
 //
-// $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
-// $font-size-lg:   1.25rem !default; //20
-// $font-size-sm:   .875rem !default; //14
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:   1.25rem !default; //20
+$font-size-sm:   .875rem !default; //14
 $font-size-xs:   .75rem !default; //12
 //
 // $font-weight-normal: normal !default;
@@ -229,7 +229,7 @@ $font-size-h6: 0.5rem;
 // $headings-margin-bottom: ($spacer / 2) !default;
 // $headings-font-family:   inherit !default;
 $headings-font-weight:   700;
-// $headings-line-height:   1.1 !default;
+$headings-line-height:   1.375 !default;
 $headings-color:         $azuro-black;
 //
 $display1-size: 3rem;
@@ -377,8 +377,8 @@ $input-color-placeholder:        $gray;
 // $input-padding-y-lg:             .75rem !default;
 //
 $input-height:                   (($font-size-xs * $input-line-height) + ($input-padding-y * 2)) !default;
-// $input-height-lg:                (($font-size-lg * $line-height-lg) + ($input-padding-y-lg * 2)) !default;
-// $input-height-sm:                (($font-size-sm * $line-height-sm) + ($input-padding-y-sm * 2)) !default;
+$input-height-lg:                (($font-size-lg * $line-height-lg) + ($input-padding-y-lg * 2)) !default;
+$input-height-sm:                (($font-size-sm * $line-height-sm) + ($input-padding-y-sm * 2)) !default;
 //
 // $input-transition:               border-color ease-in-out .15s, box-shadow ease-in-out .15s !default;
 //
@@ -612,3 +612,15 @@ $card-border-color:        $gray-light !default;
 // $alert-danger-text:           $state-danger-text !default;
 // $alert-danger-border:         $state-danger-border !default;
 //
+
+
+
+// To be moved to a different file and overridden
+.form-control {
+  height: $input-height;
+  padding: $input-padding-y $input-padding-x;
+  font-size: $font-size-sm;
+}
+.form-control-feedback {
+  font-size: $font-size-sm;
+}
