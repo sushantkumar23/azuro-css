@@ -29,13 +29,13 @@
 // Grayscale and brand colors for use across Bootstrap.
 
 // Start with assigning color names to specific hex values.
-// $white:  #fff !default;
+$white:  #fff !default;
 // $black:  #000 !default;
 $azuro-blue: #004991;
 $azuro-teal: #009ca2;
 // 87% black + 13% $azuro-blue = $azuro-black
 $azuro-black: #000912;
-$azuro-red: #C62828
+$azuro-red: #C62828;
 
 $red: $azuro-red;
 // $orange: #f0ad4e !default;
@@ -200,7 +200,7 @@ $body-color:    $azuro-black;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-// $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 // $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 // $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       "Open Sans", $font-family-sans-serif;
@@ -208,7 +208,7 @@ $font-family-base:       "Open Sans", $font-family-sans-serif;
 // $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 // $font-size-lg:   1.25rem !default; //20
 // $font-size-sm:   .875rem !default; //14
-// $font-size-xs:   .75rem !default; //12
+$font-size-xs:   .75rem !default; //12
 //
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
@@ -348,10 +348,10 @@ $btn-block-spacing-y:            .75rem;
 // Forms
 
 // $input-padding-x:                .75rem !default;
-// $input-padding-y:                .5rem !default;
+$input-padding-y:                .5rem !default;
 $input-line-height:              1;
 //
-// $input-bg:                       $white !default;
+$input-bg:                       $white !default;
 // $input-bg-disabled:              $gray-lighter !default;
 //
 $input-color:                    $azuro-black;
