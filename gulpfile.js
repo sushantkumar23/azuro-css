@@ -4,6 +4,7 @@ var sass = require('gulp-sass');
 var config = {
 	bootstrapDir: './bower_components/bootstrap/scss',
 	publicDir: './dist',
+	docsDir: './docs',
 };
 
 gulp.task('css', function() {
@@ -11,7 +12,8 @@ gulp.task('css', function() {
 	.pipe(sass({
 		includePaths: [config.bootstrapDir],
 	}))
-	.pipe(gulp.dest(config.publicDir + '/css'));
+	.pipe(gulp.dest(config.publicDir + '/css'))
+	.pipe(gulp.dest(config.docsDir + '/css'));
 });
 
 gulp.task('default', ['css']);
