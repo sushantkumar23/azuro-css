@@ -331,8 +331,8 @@
 						}
 						</style>
 						<script>
-							document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-								this.classList.toggle( "active" );
+							$("#nav-toggle").on("click", function(){
+								$("#nav-toggle")[0].classList.toggle("active");
 							});
 						</script>
 						<div class="row py-3">
