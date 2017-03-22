@@ -15,7 +15,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<a class="navbar-brand" href="#">
-				<img class="d-inline" src="assets/logo.png" width="108px" alt="Azuro"> CSS
+				<img class="d-inline-block align-top" src="assets/logo.png" width="108px" alt="Azuro"> CSS
 			</a>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
@@ -285,6 +285,83 @@
 								  </div>
 								</form>
 						  </div>
+						</div>
+					</div>
+					<!-- Navbar -->
+					<div class="container my-3">
+						<div class="row py-3">
+							<div class="col-12">
+								<h1>Navbar</h1>
+								<hr class="my-2">
+							</div>
+						</div>
+						<style media="screen">
+							#navbar-toggler-icon {
+								cursor: pointer;
+								padding: 20px 30px 20px 5px;
+							}
+							#navbar-toggler-icon, #navbar-toggler-icon:before, #navbar-toggler-icon:after {
+							  cursor: pointer;
+							  border-radius: 1px;
+							  height: 1px;
+							  width: 25px;
+							  background: black;
+							  position: absolute;
+							  display: block;
+							  content: '';
+							}
+							#navbar-toggler-icon:before {
+							  top: -10px;
+							}
+							#navbar-toggler-icon:after {
+							  bottom: -10px;
+							}
+
+							#navbar-toggler-icon, #navbar-toggler-icon:before, #navbar-toggler-icon:after {
+							  transition: all 500ms ease-in-out;
+							}
+							.navbar-toggler.active #navbar-toggler-icon {
+							  background-color: transparent;
+							}
+							.navbar-toggler.active #navbar-toggler-icon:before, .navbar-toggler.active #navbar-toggler-icon:after {
+							  top: 0;
+							}
+							.navbar-toggler.active #navbar-toggler-icon:before {
+							  transform: rotate(45deg);
+							}
+							.navbar-toggler.active #navbar-toggler-icon:after {
+							  transform: rotate(-45deg);
+							}
+						</style>
+						<script>
+							document.querySelector( ".navbar-toggler" ).addEventListener( "click", function() {
+								this.classList.toggle( "active" );
+							});
+						</script>
+						<div class="row py-3">
+							<div class="col-12">
+								<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+									<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+										<span id="navbar-toggler-icon"></span>
+									</button>
+									<a class="navbar-brand mx-auto ml-md-0 mr-md-auto" href="#">
+										<img class="d-inline-block align-top" src="assets/logo.png" width="108px" alt="Azuro"> CSS
+									</a>
+									<div class="collapse navbar-collapse" id="navbarContent">
+										<ul class="navbar-nav ml-auto">
+											<li class="nav-item active">
+												<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link" href="#">Link</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link disabled" href="#">Disabled</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+							</div>
 						</div>
 					</div>
 			  </div>
