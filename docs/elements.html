@@ -293,16 +293,17 @@
 							<div class="col-12">
 								<h1>Navbar</h1>
 								<hr class="my-2">
+								<p class="text-muted">Manually reduce the browser width to see the collapsible navbar in action!</p>
 							</div>
 						</div>
 						<style media="screen">
-						#nav-toggle { cursor: pointer; padding: 20px 30px 20px 5px; }
+						#nav-toggle { cursor: pointer; padding: 15px 30px 15px 5px; }
 						#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
 							cursor: pointer;
 							border-radius: 1px;
 							height: 1px;
 							width: 25px;
-							background: white;
+							background: black;
 							position: absolute;
 							display: block;
 							content: '';
@@ -330,7 +331,7 @@
 						}
 						</style>
 						<script>
-							document.querySelector( ".navbar-toggler" ).addEventListener( "click", function() {
+							document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
 								this.classList.toggle( "active" );
 							});
 						</script>
