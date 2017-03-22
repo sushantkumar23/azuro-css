@@ -6,7 +6,7 @@
 	font-size: $font-size-lg;
 }
 .btn-sm {
-	font-size: $font-size-xs;
+	font-size: $font-size-sm;
 }
 .form-control {
 	padding: $input-padding-y $input-padding-x;
@@ -18,7 +18,7 @@
 }
 .form-control-sm {
 	padding: $input-padding-y-sm $input-padding-x-sm;
-	font-size: $font-size-xs;
+	font-size: $font-size-sm;
 }
 .form-control-feedback {
 	font-size: $font-size-sm;
