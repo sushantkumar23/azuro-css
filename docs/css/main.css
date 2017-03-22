@@ -6022,3 +6022,6 @@ label {
 
 .form-control-feedback {
   font-size: 0.75rem; }
+
+input.form-control.input-group-addon {
+  text-align: left; }
