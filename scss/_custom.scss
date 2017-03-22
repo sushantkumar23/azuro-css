@@ -8,6 +8,11 @@
 .btn-sm {
 	font-size: $font-size-sm;
 }
+label {
+	color: $gray;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-bold;
+}
 .form-control {
 	padding: $input-padding-y $input-padding-x;
 	font-size: $font-size-sm;
