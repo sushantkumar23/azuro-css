@@ -5996,3 +5996,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .btn {
   font-size: 0.75rem; }
+
+.btn-lg, .btn-group-lg > .btn {
+  font-size: 1rem; }
+
+.btn-sm, .btn-group-sm > .btn {
+  font-size: 0.375rem; }
