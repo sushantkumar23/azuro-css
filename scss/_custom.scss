@@ -1,11 +1,14 @@
 // Overriding fonts
 .btn {
+	padding: $btn-padding-y $btn-padding-x;
 	font-size: $font-size-sm;
 }
 .btn-lg {
+	padding: $btn-padding-y-lg $btn-padding-x-lg;
 	font-size: $font-size-lg;
 }
 .btn-sm {
+	padding: $btn-padding-y-sm $btn-padding-x-sm;
 	font-size: $font-size-sm;
 }
 label {

@@ -295,7 +295,7 @@ $border-radius-sm:       .125rem;
 // For each of Bootstrap's buttons, define text, background and border color.
 
 $btn-padding-x:                  1rem;
-$btn-padding-y:                  .75rem;
+$btn-padding-y:                  .625rem;
 $btn-line-height:                $line-height-base;
 // $btn-font-weight:                $font-weight-normal !default;
 // $btn-box-shadow:                 inset 0 1px 0 rgba($white,.15), 0 1px 1px rgba($black,.075) !default;
@@ -328,11 +328,11 @@ $btn-secondary-border:           $azuro-teal !default;
 //
 // $btn-link-disabled-color:        $gray-light !default;
 //
-// $btn-padding-x-sm:               .5rem !default;
-// $btn-padding-y-sm:               .25rem !default;
+$btn-padding-x-sm:               .5rem !default;
+$btn-padding-y-sm:               .5rem !default;
 //
-// $btn-padding-x-lg:               1.5rem !default;
-// $btn-padding-y-lg:               .75rem !default;
+$btn-padding-x-lg:               1rem !default;
+$btn-padding-y-lg:               1rem !default;
 //
 $btn-block-spacing-y:            .75rem;
 // $btn-toolbar-margin:             .5rem !default;
@@ -348,7 +348,7 @@ $btn-block-spacing-y:            .75rem;
 // Forms
 
 $input-padding-x:                .75rem !default;
-$input-padding-y:                .75rem !default;
+$input-padding-y:                .625rem !default;
 $input-line-height:              $line-height-base;
 //
 $input-bg:                       $white !default;
