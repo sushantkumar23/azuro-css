@@ -1749,7 +1749,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: 0.625rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 0.875rem;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out; }
@@ -5988,8 +5988,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important; } }
 
 .btn {
-  padding: 0.625rem 1rem;
-  font-size: 0.75rem; }
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem; }
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 1rem 1rem;
