@@ -5993,3 +5993,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .form-control-feedback {
   font-size: 0.75rem; }
+
+.btn {
+  font-size: 0.75rem; }
