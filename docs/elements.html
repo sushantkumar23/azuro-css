@@ -296,11 +296,11 @@
 							</div>
 						</div>
 						<style media="screen">
-							#navbar-toggler-icon {
+							.navbar-toggler span {
 								cursor: pointer;
 								padding: 20px 30px 20px 5px;
 							}
-							#navbar-toggler-icon, #navbar-toggler-icon:before, #navbar-toggler-icon:after {
+							.navbar-toggler span, .navbar-toggler span:before, .navbar-toggler span:after {
 							  cursor: pointer;
 							  border-radius: 1px;
 							  height: 1px;
@@ -310,26 +310,26 @@
 							  display: block;
 							  content: '';
 							}
-							#navbar-toggler-icon:before {
+							.navbar-toggler span:before {
 							  top: -10px;
 							}
-							#navbar-toggler-icon:after {
+							.navbar-toggler span:after {
 							  bottom: -10px;
 							}
 
-							#navbar-toggler-icon, #navbar-toggler-icon:before, #navbar-toggler-icon:after {
+							.navbar-toggler span, .navbar-toggler span:before, .navbar-toggler span:after {
 							  transition: all 500ms ease-in-out;
 							}
-							.navbar-toggler.active #navbar-toggler-icon {
+							.navbar-toggler.active span {
 							  background-color: transparent;
 							}
-							.navbar-toggler.active #navbar-toggler-icon:before, .navbar-toggler.active #navbar-toggler-icon:after {
+							.navbar-toggler.active span:before, .navbar-toggler.active span:after {
 							  top: 0;
 							}
-							.navbar-toggler.active #navbar-toggler-icon:before {
+							.navbar-toggler.active span:before {
 							  transform: rotate(45deg);
 							}
-							.navbar-toggler.active #navbar-toggler-icon:after {
+							.navbar-toggler.active span:after {
 							  transform: rotate(-45deg);
 							}
 						</style>
@@ -342,10 +342,10 @@
 							<div class="col-12">
 								<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 									<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-										<span id="navbar-toggler-icon"></span>
+										<span></span>
 									</button>
 									<a class="navbar-brand mx-auto ml-md-0 mr-md-auto" href="#">
-										<img class="d-inline-block align-top" src="assets/logo.png" width="108px" alt="Azuro"> CSS
+										<img class="img-fluid" src="assets/logo.png" width="108px" alt="Azuro">
 									</a>
 									<div class="collapse navbar-collapse" id="navbarContent">
 										<ul class="navbar-nav ml-auto">
@@ -358,11 +358,29 @@
 											<li class="nav-item">
 												<a class="nav-link disabled" href="#">Disabled</a>
 											</li>
+											<li class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Dropdown link
+												</a>
+												<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+													<a class="dropdown-item" href="#">Action</a>
+													<a class="dropdown-item" href="#">Another action</a>
+													<a class="dropdown-item" href="#">Something else here</a>
+												</div>
+											</li>
 										</ul>
 									</div>
+									<a class="navbar-toggler-right hidden-md-down">
+										<i class="fa fa-phone"></i>
+									</a>
 								</nav>
 							</div>
 						</div>
+					</div>
+					<!-- Footer to be added -->
+					<!-- Empty Spacer -->
+					<div class="container my-3" style="height:300px;">
+
 					</div>
 			  </div>
 			</div>
