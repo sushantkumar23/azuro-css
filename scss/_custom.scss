@@ -1,0 +1,8 @@
+// Overriding fonts
+.form-control {
+	padding: $input-padding-y $input-padding-x;
+	font-size: $font-size-sm;
+}
+.form-control-feedback {
+	font-size: $font-size-sm;
+}

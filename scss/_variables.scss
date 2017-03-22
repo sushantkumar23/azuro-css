@@ -612,14 +612,3 @@ $card-border-color:        $gray-light !default;
 // $alert-danger-text:           $state-danger-text !default;
 // $alert-danger-border:         $state-danger-border !default;
 //
-
-
-
-// To be moved to a different file and overridden
-.form-control {
-  padding: $input-padding-y $input-padding-x;
-  font-size: $font-size-sm;
-}
-.form-control-feedback {
-  font-size: $font-size-sm;
-}
