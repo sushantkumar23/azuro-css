@@ -1,11 +1,4 @@
 // Overriding fonts
-.form-control {
-	padding: $input-padding-y $input-padding-x;
-	font-size: $font-size-sm;
-}
-.form-control-feedback {
-	font-size: $font-size-sm;
-}
 .btn {
 	font-size: $font-size-sm;
 }
@@ -14,4 +7,19 @@
 }
 .btn-sm {
 	font-size: $font-size-xs;
+}
+.form-control {
+	padding: $input-padding-y $input-padding-x;
+	font-size: $font-size-sm;
+}
+.form-control-lg {
+	padding: $input-padding-y-lg $input-padding-x-lg;
+	font-size: $font-size-lg;
+}
+.form-control-sm {
+	padding: $input-padding-y-sm $input-padding-x-sm;
+	font-size: $font-size-xs;
+}
+.form-control-feedback {
+	font-size: $font-size-sm;
 }
