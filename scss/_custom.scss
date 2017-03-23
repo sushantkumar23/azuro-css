@@ -21,6 +21,12 @@ nav { letter-spacing:0.05; }
 .text-secondary {
 	color: $azuro-teal;
 }
+.badge {
+	border-radius: 0;
+}
+.badge-secondary {
+	background-color: $azuro-teal;
+}
 
 //Forms
 label {
