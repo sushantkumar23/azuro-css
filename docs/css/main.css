@@ -6028,3 +6028,6 @@ input.form-control.input-group-addon {
 
 .navbar-light .navbar-toggler {
   border-color: transparent; }
+
+.card-block {
+  padding: 2.5rem; }
