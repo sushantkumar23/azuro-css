@@ -5999,6 +5999,23 @@ h2, h4 {
 nav {
   letter-spacing: 0.05; }
 
+.navbar-nav {
+  font-weight: 300; }
+
+.azuro-call-icon {
+  align-self: flex-start;
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  position: absolute;
+  right: 1.5rem; }
+
+.fa-va-fix {
+  vertical-align: -50%; }
+
 .btn {
   padding: 0.5rem 1rem;
   font-size: 0.875rem; }
@@ -6037,6 +6054,9 @@ label {
 
 input.form-control.input-group-addon {
   text-align: left; }
+
+.card {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1); }
 
 .card-block {
   padding: 2.5rem; }
