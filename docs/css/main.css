@@ -5987,6 +5987,18 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
+body, h3 {
+  letter-spacing: 0.3; }
+
+h2, h4 {
+  letter-spacing: 0.08; }
+
+.display-1, .display-2 {
+  letter-spacing: 0.11; }
+
+nav {
+  letter-spacing: 0.05; }
+
 .btn {
   padding: 0.5rem 1rem;
   font-size: 0.875rem; }
@@ -6026,11 +6038,11 @@ label {
 input.form-control.input-group-addon {
   text-align: left; }
 
-.navbar-light .navbar-toggler {
-  border-color: transparent; }
-
 .card-block {
   padding: 2.5rem; }
 
 .card-title {
   margin-bottom: 2rem; }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent; }
