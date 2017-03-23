@@ -5,8 +5,22 @@ body, h3 { letter-spacing: 0.3 }
 h2, h4 { letter-spacing: 0.08; }
 .display-1, .display-2 { letter-spacing: 0.11; }
 nav { letter-spacing:0.05; }
+.navbar {
+	padding-top: .675rem;
+	padding-bottom: .675rem;
+	// == move these as and when required. They are not required when bg is transparent
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0,0,0,0.12);}
+	// == end
 .navbar-nav {
 	font-weight: 300;
+	line-height: 2;
+}
+.navbar-light .navbar-nav .open > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .nav-link.active {
+	color: $azuro-blue;;
 }
 .azuro-call-icon {
 	align-self: flex-start;
@@ -17,7 +31,7 @@ nav { letter-spacing:0.05; }
 	border: 1px solid transparent;
 	border-radius: 0.25rem;
 	position: absolute;
-	right: 1.5rem;
+	right: 0.5rem;
 }
 .fa-lg.fa-va-fix {
 	vertical-align: -50%;
