@@ -6024,13 +6024,15 @@ nav {
   font-size: 12px;
   padding: 8px 40px;
   top: -2.5rem;
-  margin-left: auto;
-  margin-right: auto; }
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px; }
 
 .azuro-badge--right {
   font-size: 14px;
   padding: 12px 56px;
-  margin-right: -2.5rem; }
+  margin-right: -2.5rem;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px; }
 
 label {
   color: #9e9e9e;
