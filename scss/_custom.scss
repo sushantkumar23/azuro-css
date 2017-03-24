@@ -27,6 +27,16 @@ nav { letter-spacing:0.05; }
 .badge-secondary {
 	background-color: $azuro-teal;
 }
+.azuro-badge--top {
+	font-size: 12px;
+	top: 0px;
+	left: auto;
+	right:auto;
+}
+.azuro-badge--right {
+	font-size: 12px;
+	margin-right: -2.5rem;
+}
 
 //Forms
 label {
