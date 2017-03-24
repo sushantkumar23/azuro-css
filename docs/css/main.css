@@ -6022,12 +6022,14 @@ nav {
 
 .azuro-badge--top {
   font-size: 12px;
-  top: 0px;
-  left: auto;
-  right: auto; }
+  padding: 8px 40px;
+  top: -2.5rem;
+  margin-left: auto;
+  margin-right: auto; }
 
 .azuro-badge--right {
-  font-size: 12px;
+  font-size: 14px;
+  padding: 12px 56px;
   margin-right: -2.5rem; }
 
 label {
