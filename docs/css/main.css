@@ -6102,3 +6102,16 @@ input.form-control.input-group-addon {
 
 .fa-lg.fa-va-fix {
   vertical-align: -50%; }
+
+.footer-heading {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.3px; }
+
+.footer-text {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  margin-bottom: 0; }
