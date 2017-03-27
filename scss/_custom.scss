@@ -1,10 +1,10 @@
 // Overriding CSS
 
 //Typography
-body, h3 { letter-spacing: 0.3em }
-h2, h4 { letter-spacing: 0.08em; }
-.display-1, .display-2 { letter-spacing: 0.11em; }
-nav { letter-spacing:0.05em; }
+body, h3 { letter-spacing: 0.3px }
+h2, h4 { letter-spacing: 0.08px; }
+.display-1, .display-2 { letter-spacing: 0.11px; }
+nav { letter-spacing:0.05px; }
 //Buttons
 .btn {
 	padding: $btn-padding-y $btn-padding-x;
@@ -152,7 +152,7 @@ input.form-control.input-group-addon {
 //Footer
 .footer-heading, .footer-text {
 	font-size: 15px;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.3px;
 }
 .footer-heading {
 	font-weight: bold;

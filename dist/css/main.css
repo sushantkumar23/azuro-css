@@ -5988,16 +5988,16 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important; } }
 
 body, h3 {
-  letter-spacing: 0.3em; }
+  letter-spacing: 0.3px; }
 
 h2, h4 {
-  letter-spacing: 0.08em; }
+  letter-spacing: 0.08px; }
 
 .display-1, .display-2 {
-  letter-spacing: 0.11em; }
+  letter-spacing: 0.11px; }
 
 nav {
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05px; }
 
 .btn {
   padding: 0.5rem 1rem;
@@ -6140,7 +6140,7 @@ input.form-control.input-group-addon {
 
 .footer-heading, .footer-text {
   font-size: 15px;
-  letter-spacing: 0.3em; }
+  letter-spacing: 0.3px; }
 
 .footer-heading {
   font-weight: bold;
