@@ -270,7 +270,7 @@ html {
 body {
   font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.5;
   color: #000912;
   background-color: #fff; }
@@ -308,7 +308,7 @@ ul ol {
   margin-bottom: 0; }
 
 dt {
-  font-weight: bold; }
+  font-weight: 700; }
 
 dd {
   margin-bottom: .5rem;
@@ -481,7 +481,7 @@ hr {
 small,
 .small {
   font-size: 80%;
-  font-weight: normal; }
+  font-weight: 400; }
 
 mark,
 .mark {
@@ -581,7 +581,7 @@ kbd {
   kbd kbd {
     padding: 0;
     font-size: 100%;
-    font-weight: bold; }
+    font-weight: 700; }
 
 pre {
   display: block;
@@ -1503,7 +1503,7 @@ pre {
   .form-control:focus {
     color: #000912;
     background-color: #fff;
-    border-color: #1289ff;
+    border-color: #23f7ff;
     outline: none; }
   .form-control::placeholder {
     color: #9e9e9e;
@@ -1742,7 +1742,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn {
   display: inline-block;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.57;
   text-align: center;
   white-space: nowrap;
@@ -2009,7 +2009,7 @@ fieldset[disabled] a.btn {
     border-color: #C62828; }
 
 .btn-link {
-  font-weight: normal;
+  font-weight: 400;
   color: #004991;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
@@ -2124,7 +2124,7 @@ tbody.collapse.show {
   width: 100%;
   padding: 3px 1.5rem;
   clear: both;
-  font-weight: normal;
+  font-weight: 400;
   color: #757575;
   text-align: inherit;
   white-space: nowrap;
@@ -2337,7 +2337,7 @@ tbody.collapse.show {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.57;
   color: #000912;
   text-align: center;
@@ -3187,7 +3187,7 @@ tbody.collapse.show {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -3268,7 +3268,7 @@ a.badge:focus, a.badge:hover {
   color: inherit; }
 
 .alert-link {
-  font-weight: bold; }
+  font-weight: 700; }
 
 .alert-dismissible .close {
   position: relative;
@@ -3537,7 +3537,7 @@ button.list-group-item-danger {
 .close {
   float: right;
   font-size: 1.3125rem;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
@@ -3657,7 +3657,7 @@ button.close {
   display: block;
   font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.5;
@@ -3739,7 +3739,7 @@ button.close {
   padding: 1px;
   font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   letter-spacing: normal;
   line-break: auto;
   line-height: 1.5;
@@ -5864,10 +5864,10 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   text-transform: capitalize !important; }
 
 .font-weight-normal {
-  font-weight: normal; }
+  font-weight: 400; }
 
 .font-weight-bold {
-  font-weight: bold; }
+  font-weight: 700; }
 
 .font-italic {
   font-style: italic; }
@@ -5988,16 +5988,16 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important; } }
 
 body, h3 {
-  letter-spacing: 0.3; }
+  letter-spacing: 0.3em; }
 
 h2, h4 {
-  letter-spacing: 0.08; }
+  letter-spacing: 0.08em; }
 
 .display-1, .display-2 {
-  letter-spacing: 0.11; }
+  letter-spacing: 0.11em; }
 
 nav {
-  letter-spacing: 0.05; }
+  letter-spacing: 0.05em; }
 
 .btn {
   padding: 0.5rem 1rem;
@@ -6037,7 +6037,7 @@ nav {
 label {
   color: #9e9e9e;
   font-size: 0.75rem;
-  font-weight: bold; }
+  font-weight: 600; }
 
 .form-control {
   padding: 0.5rem 1rem;
@@ -6103,9 +6103,44 @@ input.form-control.input-group-addon {
 .fa-lg.fa-va-fix {
   vertical-align: -50%; }
 
+#nav-toggle {
+  cursor: pointer;
+  padding: 15px 30px 15px 5px; }
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 1px;
+  width: 25px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: ''; }
+
+#nav-toggle span:before {
+  top: -7.5px; }
+
+#nav-toggle span:after {
+  bottom: -7.5px; }
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out; }
+
+#nav-toggle.active span {
+  background-color: transparent; }
+
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0; }
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg); }
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg); }
+
 .footer-heading, .footer-text {
   font-size: 15px;
-  letter-spacing: 0.3px; }
+  letter-spacing: 0.3em; }
 
 .footer-heading {
   font-weight: bold;

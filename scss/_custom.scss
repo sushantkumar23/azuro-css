@@ -1,10 +1,10 @@
 // Overriding CSS
 
 //Typography
-body, h3 { letter-spacing: 0.3 }
-h2, h4 { letter-spacing: 0.08; }
-.display-1, .display-2 { letter-spacing: 0.11; }
-nav { letter-spacing:0.05; }
+body, h3 { letter-spacing: 0.3em }
+h2, h4 { letter-spacing: 0.08em; }
+.display-1, .display-2 { letter-spacing: 0.11em; }
+nav { letter-spacing:0.05em; }
 //Buttons
 .btn {
 	padding: $btn-padding-y $btn-padding-x;
@@ -46,7 +46,7 @@ nav { letter-spacing:0.05; }
 label {
 	color: $gray;
 	font-size: $font-size-sm;
-	font-weight: $font-weight-bold;
+	font-weight: $font-weight-semibold;
 }
 .form-control {
 	padding: $input-padding-y $input-padding-x;
@@ -113,10 +113,46 @@ input.form-control.input-group-addon {
 .fa-lg.fa-va-fix {
 	vertical-align: -50%;
 }
+
+// Navbar Menu Icon Animation CSS
+#nav-toggle { cursor: pointer; padding: 15px 30px 15px 5px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	height: 1px;
+	width: 25px;
+	background: black;
+	position: absolute;
+	display: block;
+	content: '';
+}
+#nav-toggle span:before {
+	top: -7.5px;
+}
+#nav-toggle span:after {
+	bottom: -7.5px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+	transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+	background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+	top: 0;
+}
+#nav-toggle.active span:before {
+	transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+	transform: rotate(-45deg);
+}
+/////////////////////////////////
+
 //Footer
 .footer-heading, .footer-text {
 	font-size: 15px;
-	letter-spacing: 0.3px;
+	letter-spacing: 0.3em;
 }
 .footer-heading {
 	font-weight: bold;
