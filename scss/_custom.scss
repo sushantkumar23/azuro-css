@@ -102,9 +102,9 @@ input.form-control.input-group-addon {
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .nav-link.active {
 	color: $azuro-black;
-	border: solid 3px $azuro-black;
+	border-bottom: solid 3px $azuro-black;
 }
-.navbar-light .navbar-nav .nav-link.login-link {
+.nav-item.login-link {
 	background-color: $azuro-teal;
 	color: $white;
 }

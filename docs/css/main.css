@@ -6092,9 +6092,9 @@ input.form-control.input-group-addon {
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .nav-link.active {
   color: #000912;
-  border: solid 3px #000912; }
+  border-bottom: solid 3px #000912; }
 
-.navbar-light .navbar-nav .nav-link.login-link {
+.nav-item.login-link {
   background-color: #009ca2;
   color: #fff; }
 
