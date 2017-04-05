@@ -93,7 +93,7 @@ input.form-control.input-group-addon {
 	font-weight: 300;
 	line-height: 2;
 }
-.navbar-nav .nav-link {
+.navbar-toggleable-md .navbar-nav .nav-link {
 	padding-right: .75rem;
 	padding-left: .75rem;
 }
@@ -104,9 +104,10 @@ input.form-control.input-group-addon {
 	color: $azuro-black;
 	border-bottom: solid 3px $azuro-black;
 }
-.nav-item.login-link {
+.nav-link.login-link {
 	background-color: $azuro-teal;
 	color: $white;
+	margin-left: 1em;
 }
 .azuro-call-icon {
 	align-self: flex-start;
