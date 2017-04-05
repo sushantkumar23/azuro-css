@@ -6083,11 +6083,20 @@ input.form-control.input-group-addon {
   font-weight: 300;
   line-height: 2; }
 
+.navbar-nav .nav-link {
+  padding-right: .75rem;
+  padding-left: .75rem; }
+
 .navbar-light .navbar-nav .open > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #004991; }
+  color: #000912;
+  border: solid 3px #000912; }
+
+.navbar-light .navbar-nav .nav-link.login-link {
+  background-color: #009ca2;
+  color: #fff; }
 
 .azuro-call-icon {
   align-self: flex-start;

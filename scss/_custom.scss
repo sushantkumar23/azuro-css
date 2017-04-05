@@ -93,11 +93,20 @@ input.form-control.input-group-addon {
 	font-weight: 300;
 	line-height: 2;
 }
+.navbar-nav .nav-link {
+	padding-right: .75rem;
+	padding-left: .75rem;
+}
 .navbar-light .navbar-nav .open > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .nav-link.active {
-	color: $azuro-blue;;
+	color: $azuro-black;
+	border: solid 3px $azuro-black;
+}
+.navbar-light .navbar-nav .nav-link.login-link {
+	background-color: $azuro-teal;
+	color: $white;
 }
 .azuro-call-icon {
 	align-self: flex-start;
