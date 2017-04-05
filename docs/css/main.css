@@ -6083,6 +6083,9 @@ input.form-control.input-group-addon {
   font-weight: 300;
   line-height: 2; }
 
+.nav-link {
+  padding: 0.2em 1em; }
+
 .navbar-toggleable-md .navbar-nav .nav-link {
   padding-right: .75rem;
   padding-left: .75rem; }
