@@ -6,6 +6,10 @@
   ],
   "description": "CSS framework based on Azuro's internal Design System",
   "main": "scss/main.scss",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sushantkumar23/azuro-css.git"
+  },
   "keywords": [
     "css",
     "azuro css",
