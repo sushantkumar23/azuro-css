@@ -1,13 +1,16 @@
 {
   "name": "azuro-css",
-  "homepage": "https://github.com/sushantkumar23/azuro-css",
+  "homepage": "https://sushantkumar23.github.io/azuro-css",
   "authors": [
-    "Siddhesh Thadeshwar <sid@stringzweb.graphics>"
+    "Siddhesh Thadeshwar <siddhesh@azuro.in>"
   ],
   "description": "CSS framework based on Azuro's internal Design System",
   "main": "scss/main.scss",
   "keywords": [
-    "css"
+    "css",
+    "azuro css",
+    "bootstrap",
+    "bootstrap 4"
   ],
   "license": "MIT",
   "ignore": [
