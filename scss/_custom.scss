@@ -7,6 +7,10 @@
 .bg-gray-lightest { background-color: $gray-lightest; }
 .bg-transparent { background-color: transparent; }
 
+section {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
 // Overriding CSS
 
 //Typography
