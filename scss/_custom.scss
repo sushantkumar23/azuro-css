@@ -18,6 +18,11 @@ body, h3 { letter-spacing: 0.3px }
 h2, h4 { letter-spacing: 0.08px; }
 .display-1, .display-2 { letter-spacing: 0.11px; }
 nav { letter-spacing:0.05px; }
+.body-lead {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
 //Buttons
 .btn {
 	padding: $btn-padding-y $btn-padding-x;
@@ -30,6 +35,9 @@ nav { letter-spacing:0.05px; }
 .btn-sm {
 	padding: $btn-padding-y-sm $btn-padding-x-sm;
 	font-size: $font-size-sm;
+}
+button [type="submit"] {
+	padding-top: 1rem;
 }
 .text-secondary {
 	color: $azuro-teal;
@@ -60,6 +68,7 @@ label {
 	color: $gray;
 	font-size: $font-size-sm;
 	font-weight: $font-weight-semibold;
+	margin-bottom: .25rem;
 }
 .form-control {
 	padding: $input-padding-y $input-padding-x;
@@ -103,7 +112,7 @@ input.form-control.input-group-addon {
 	border-bottom: 1px solid rgba(0,0,0,0.12);}
 	// == end
 .navbar-nav {
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 2;
 }
 .nav-link {
@@ -123,9 +132,15 @@ input.form-control.input-group-addon {
 .navbar-toggleable-md .navbar-nav .nav-link.login-link {
 	padding-right: 1rem;
 	padding-left: 1rem;
+	border-radius:2px;
 	background-color: $azuro-teal;
 	color: $white;
 	margin-left: .75em;
+	@media (max-width: 767px) {
+		background-color: $white;
+		color: $azuro-teal;
+		border-radius: 0px;
+	}
 }
 .azuro-call-icon {
 	align-self: flex-start;

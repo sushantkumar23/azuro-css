@@ -1494,7 +1494,7 @@ pre {
   background-color: #fff;
   background-image: none;
   background-clip: padding-box;
-  border: 1px solid #9e9e9e;
+  border: 1px solid #e0e0e0;
   border-radius: 0.25rem;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control::-ms-expand {
@@ -1586,7 +1586,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   height: 3.33333rem; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 0.5rem; }
 
 .form-text {
   display: block;
@@ -2342,7 +2342,7 @@ tbody.collapse.show {
   color: #000912;
   text-align: center;
   background-color: #fff;
-  border: 1px solid #9e9e9e;
+  border: 1px solid #e0e0e0;
   border-radius: 0.25rem; }
   .input-group-addon.form-control-sm,
   .input-group-sm > .input-group-addon,
@@ -2485,7 +2485,7 @@ tbody.collapse.show {
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 1rem center;
   background-size: 8px 10px;
-  border: 1px solid #9e9e9e;
+  border: 1px solid #e0e0e0;
   border-radius: 0.25rem;
   -moz-appearance: none;
   -webkit-appearance: none; }
@@ -2536,7 +2536,7 @@ tbody.collapse.show {
   pointer-events: none;
   user-select: none;
   background-color: #fff;
-  border: 1px solid #9e9e9e;
+  border: 1px solid #e0e0e0;
   border-radius: 0.25rem; }
   .custom-file-control:lang(en)::after {
     content: "Choose file..."; }
@@ -2552,7 +2552,7 @@ tbody.collapse.show {
     line-height: 1.5;
     color: #9e9e9e;
     background-color: #eee;
-    border: 1px solid #9e9e9e;
+    border: 1px solid #e0e0e0;
     border-radius: 0 0.25rem 0.25rem 0; }
   .custom-file-control:lang(en)::before {
     content: "Browse"; }
@@ -6024,6 +6024,10 @@ h2, h4 {
 nav {
   letter-spacing: 0.05px; }
 
+.body-lead {
+  font-size: 1rem;
+  font-weight: normal; }
+
 .btn {
   padding: 0.5rem 1rem;
   font-size: 0.875rem; }
@@ -6035,6 +6039,9 @@ nav {
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem; }
+
+button [type="submit"] {
+  padding-top: 1rem; }
 
 .text-secondary {
   color: #009ca2; }
@@ -6062,7 +6069,8 @@ nav {
 label {
   color: #9e9e9e;
   font-size: 0.75rem;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-bottom: .25rem; }
 
 .form-control {
   padding: 0.5rem 1rem;
@@ -6105,7 +6113,7 @@ input.form-control.input-group-addon {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
 
 .navbar-nav {
-  font-weight: 300;
+  font-weight: 500;
   line-height: 2; }
 
 .nav-link {
@@ -6125,9 +6133,15 @@ input.form-control.input-group-addon {
 .navbar-toggleable-md .navbar-nav .nav-link.login-link {
   padding-right: 1rem;
   padding-left: 1rem;
+  border-radius: 2px;
   background-color: #009ca2;
   color: #fff;
   margin-left: .75em; }
+  @media (max-width: 767px) {
+    .navbar-toggleable-md .navbar-nav .nav-link.login-link {
+      background-color: #fff;
+      color: #009ca2;
+      border-radius: 0px; } }
 
 .azuro-call-icon {
   align-self: flex-start;
